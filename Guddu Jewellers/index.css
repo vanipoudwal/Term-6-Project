@@ -1,0 +1,371 @@
+.index-link-top-nav{
+word-spacing: 20px;
+background-color: #dddddd;
+position: absolute;
+top: 500px;
+color: black;
+left: 20px;
+font-weight: regular;
+font-size: 26px;
+list-style-type: disc;
+line-height: 175%;
+}
+.index-container{
+position: absolute;
+top: 785px;
+left: 375px;
+font-weight: regular;
+font-size: 19px;
+list-style-type: disc;
+line-height: 120%;
+}
+.container{
+position: absolute;
+top: 650px;
+left: 200px;
+font-weight: regular;
+line-height: 200%;
+}
+.copy-reg-1{
+position: absolute;
+top: 1220px;
+left: 25px;
+font-weight: regular;
+line-height: 175%;
+}
+.copy-reg-2{
+position: absolute;
+top: 1226px;
+left: 75px;
+font-weight: regular;
+line-height: 175%;
+}
+.copy-reg-3{
+position: absolute;
+top: 1226px;
+right: 75px;
+font-weight: regular;
+line-height: 175%;
+}
+.copy-reg-4{
+position: absolute;
+top: 1220px;
+right: 25px;
+font-weight: regular;
+line-height: 175%;
+}
+
+.brands-ul-1{
+position: absolute;
+top: 525px;
+left: 275px;
+font-weight: regular;
+font-size: 19px;
+list-style-type: disc;
+line-height: 180%;
+}
+.brands-ul-2{
+position: absolute;
+top: 525px;
+left: 525px;
+font-weight: regular;
+font-size: 19px;
+list-style-type: disc;
+line-height: 180%;
+}
+.brands-ul-3{
+position: absolute;
+top: 525px;
+left: 775px;
+font-weight: regular;
+font-size: 19px;
+list-style-type: disc;
+line-height: 180%;
+}
+.brands-ul-4{
+position: absolute;
+top: 525px;
+left: 1025px;
+font-weight: regular;
+font-size: 19px;
+list-style-type: disc;
+line-height: 180%;
+}
+
+.muhurat-ul-left{
+position: absolute;
+top: 500px;
+left: 350px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+.muhurat-ul-right{
+position: absolute;
+top: 500px;
+right: 350px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+
+.jewellery-ul-left1{
+position: absolute;
+top: 500px;
+left: 125px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+.jewellery-ul-left2{
+position: absolute;
+top: 500px;
+left: 425px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+.jewellery-ul-left3{
+position: absolute;
+top: 500px;
+left: 725px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+.jewellery-ul-left4{
+position: absolute;
+top: 500px;
+left: 1025px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+
+.gift-ul-right1{
+position: absolute;
+top: 500px;
+right: 1225px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+.gift-ul-right2{
+position: absolute;
+top: 500px;
+right: 925px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+.gift-ul-right3{
+position: absolute;
+top: 500px;
+right: 625px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+.gift-ul-right4{
+position: absolute;
+top: 500px;
+right: 325px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+.gift-ul-right5{
+position: absolute;
+top: 500px;
+right: 25px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+
+.storeloc-ul-1{
+position: absolute;
+top: 585px;
+left: 25px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.storeloc-ul-2{
+position: absolute;
+top: 585px;
+left: 250px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.storeloc-ul-3{
+position: absolute;
+top: 585px;
+left: 450px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.storeloc-ul-4{
+position: absolute;
+top: 585px;
+left: 650px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.storeloc-ul-5{
+position: absolute;
+top: 585px;
+left: 850px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.storeloc-ul-6{
+position: absolute;
+top: 585px;
+left: 1050px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.storeloc-ul-7{
+position: absolute;
+top: 585px;
+left: 1250px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+
+.contact-us-1{
+position: absolute;
+top: 500px;
+right: 925px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+.contact-us-2{
+position: absolute;
+top: 500px;
+right: 325px;
+font-weight: regular;
+font-size: 20px;
+list-style-type: disc;
+line-height: 180%;
+}
+
+.shopping-cart-ul-1{
+position: absolute;
+top: 475px;
+left: 325px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.shopping-cart-ul-2{
+position: absolute;
+top: 475px;
+left: 750px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.shopping-cart-ul-3{
+position: absolute;
+top: 475px;
+left: 1075px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.shopping-cart-ul-4{
+position: absolute;
+top: 575px;
+left: 325px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.shopping-cart-ul-5{
+position: absolute;
+top: 575px;
+left: 750px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.shopping-cart-ul-6{
+position: absolute;
+top: 575px;
+left: 1075px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.shopping-cart-ul-7{
+position: absolute;
+top: 675px;
+left: 325px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.shopping-cart-ul-8{
+position: absolute;
+top: 675px;
+left: 750px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.shopping-cart-ul-9{
+position: absolute;
+top: 675px;
+left: 1075px;
+font-weight: regular;
+font-size: 16px;
+list-style-type: disc;
+line-height: 180%;
+}
+.shopping-cart-ul-10{
+position: absolute;
+top: 750px;
+left: 650px;
+font-weight: regular;
+}
+.cart-button{
+position: absolute;
+width: 200px; 
+height: 50px;
+}
