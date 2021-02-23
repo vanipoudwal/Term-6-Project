@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+						  http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
+    
+    <var name="Order" class="com.niit.ecommerce.model" />
+    	<action-state id="addCartToOrder">
+    	    <evaluate expression="CartDaoImpl.validate(requestParameters.CartId)" result="Order.Cart" />
+    	    <transition to="InvalidCartWarning" on-exception="java.io.IOException" />
+    	   	<transition to="CollectCustomerInfo" />
+    	</action-state>
+    	<view-state id="CollectCustomerInfo" view="CollectCustomerInfo.jsp" model="Order">
+    	    <transition on="CustomerInfoCollected" to="CollectShippingDetail" />
+    	</view-state>
+    	<view-state id="CollectShippingDetail" view="CollectShippingDetail.jsp" model="Order">
+    	    <transition on="ShippingDetailCollected" to="OrderConfirmation" />
+    	    <transition on="backToCollectCustomerInfo" to="CollectCustomerInfo" />
+    	</view-state>
+    	<view-state id="OrderConfirmation">
+    	    <transition on="OrderConfirmed" to="ProcessOrder" />
+    	    <transition on="backToCollectShippingDetail" to="CollectShippingDetail" />
+    	</view-state>
+    	<action-state id="ProcessOrder">
+    	    <evaluate expression="CartItemDaoImpl.removeAllCartItems(Order.Cart)" />
+    	    <transition to="ThankCustomer" />
+    	</action-state>
+    	<view-state id="ThankCustomer" model="Order">
+    	    <transition to="EndState" />
+    	</view-state>
+    	<end-state id="EndState" />
+    	<view-state id="InvalidCartWarning">
+    	    <transition to="EndState" />
+    	</view-state>
+    	<end-state id="CancelCheckout" view="CheckOutCancelled.jsp" />
+    	<global-transitions>
+    	    <transition on="Cancel" to="CancelCheckout" />
+    	</global-transitions>
+</flow>
