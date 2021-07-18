@@ -1,2 +1,2 @@
 # Term-6-Project
-This repository is all about my TERM-6 CAPSTONE PROJECT.
+This Repository Is All About My Term-6 Capstone Project (Similar To e-Commerce Website).
